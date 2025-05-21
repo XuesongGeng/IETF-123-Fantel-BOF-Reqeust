@@ -1,0 +1,49 @@
+Fantel WG Charter
+
+Description
+The Fast Notification for Traffic Engineering and Load Balancing (FANTEL) Working Group aims to define mechanisms for real-time notification of network conditions to improve traffic engineering and load balancing in large-scale and dynamic networks. Current solutions for traffic management often rely on periodic updates or reactive mechanisms with limited visibility into real-time conditions, leading to suboptimal routing decisions, congestion, and inefficient resource utilization.
+FANTEL focuses on the standardization of notification procedures that enable timely and efficient dissemination of network state information—such as link congestion, queue lengths, and SLA compliance—to adaptive routing and load balancing systems. These mechanisms will enhance network performance, ensuring proactive rather than reactive traffic management.
+The WG will investigate requirements, use cases, and gaps in existing approaches to fast notification and work toward developing protocols, formats, and models to support real-time traffic engineering in various network environments, including data centers, wide area networks (WANs), 5G networks, and industrial control networks.
+
+Scope of Work
+
+The FANTEL WG will:
+•	Analyze Use Cases and Requirements
+ o	Investigate scenarios where fast notification mechanisms can significantly improve traffic engineering and load balancing, particularly in DC and WAN environments.
+ o	Define key challenges and requirements for real-time traffic reaction.
+•	Develop Notification Protocols and Mechanisms
+ o	Specify fast notification mechanisms that allow routing nodes to react quickly to network conditions such as link congestion, SLA violations, and queue buildup.
+ o	Ensure compatibility with existing routing and traffic engineering solutions.
+•	Define Fast Notification Information Models
+ o	Develop models that structure real-time network condition data in a standardized way for effective decision-making.
+ o	Address requirements for data collection, validation, and transmission.
+•	Propose and Evaluate Fast Notification Solutions
+ o	Explore efficient ways to use fast notifications for adaptive routing and load balancing.
+ o	Evaluate the impact of these mechanisms on network performance and scalability.
+The WG will ensure that any protocol or mechanism developed does not introduce excessive overhead, is scalable to large networks, and aligns with existing IETF architecture and security best practices.
+
+Out of Scope
+The WG will not define new routing protocols but will work with existing traffic engineering and routing WGs to integrate fast notification into established mechanisms.
+
+Coordination & Dependencies
+
+The FANTEL WG will collaborate closely with the following IETF WGs:
+ •	RTGWG (Routing Area Working Group) – for integration with existing routing models.
+ •	TEAS (Traffic Engineering Architecture and Signaling) – for interaction with traffic engineering mechanisms.
+ •	IDR (Inter-Domain Routing) – for any necessary extensions to BGP-based solutions.
+ •	LSR (Link State Routing) – if updates to IGP-based solutions are required.
+
+As needed, the WG will also coordinate with other relevant groups working on network automation and telemetry.
+
+Milestones & Deliverables
+ 1.	Use Case and Requirements Document (Informational, 2026-06)
+  o	Define key challenges in real-time traffic reaction for DC and WAN networks.
+ 2.	Fast Notification Mechanism Specification (Standards Track, 2027-01)
+  o	Define procedures for rapid propagation of network state updates.
+ 3.	Fast Notification Information Model (Standards Track, 2027-12)
+  o	Develop a structured model for fast notification data representation.
+ 4.	Fast Notification Solution Framework (Standards Track, 2028-01)
+  o	Specify how fast notification mechanisms integrate into existing routing and traffic engineering frameworks.
+
+The WG will assess early deployments and feedback from operators to refine its work over time.
+
