@@ -9,17 +9,17 @@ Scope of Work
 
 The FANTEL WG will:
 •	Analyze Use Cases and Requirements
- o	Investigate scenarios where fast notification mechanisms can significantly improve traffic engineering and load balancing, particularly in DC and WAN environments.
- o	Define key challenges and requirements for real-time traffic reaction.
+    o	Investigate scenarios where fast notification mechanisms can significantly improve traffic engineering and load balancing, particularly in DC and WAN environments.
+    o	Define key challenges and requirements for real-time traffic reaction.
 •	Develop Notification Protocols and Mechanisms
- o	Specify fast notification mechanisms that allow routing nodes to react quickly to network conditions such as link congestion, SLA violations, and queue buildup.
- o	Ensure compatibility with existing routing and traffic engineering solutions.
+    o	Specify fast notification mechanisms that allow routing nodes to react quickly to network conditions such as link congestion, SLA violations, and queue buildup.
+    o	Ensure compatibility with existing routing and traffic engineering solutions.
 •	Define Fast Notification Information Models
- o	Develop models that structure real-time network condition data in a standardized way for effective decision-making.
- o	Address requirements for data collection, validation, and transmission.
+    o	Develop models that structure real-time network condition data in a standardized way for effective decision-making.
+    o	Address requirements for data collection, validation, and transmission.
 •	Propose and Evaluate Fast Notification Solutions
- o	Explore efficient ways to use fast notifications for adaptive routing and load balancing.
- o	Evaluate the impact of these mechanisms on network performance and scalability.
+    o	Explore efficient ways to use fast notifications for adaptive routing and load balancing.
+    o	Evaluate the impact of these mechanisms on network performance and scalability.
 The WG will ensure that any protocol or mechanism developed does not introduce excessive overhead, is scalable to large networks, and aligns with existing IETF architecture and security best practices.
 
 Out of Scope
@@ -37,13 +37,13 @@ As needed, the WG will also coordinate with other relevant groups working on net
 
 Milestones & Deliverables
  1.	Use Case and Requirements Document (Informational, 2026-06)
-  o	Define key challenges in real-time traffic reaction for DC and WAN networks.
+    o	Define key challenges in real-time traffic reaction for DC and WAN networks.
  2.	Fast Notification Mechanism Specification (Standards Track, 2027-01)
-  o	Define procedures for rapid propagation of network state updates.
+    o	Define procedures for rapid propagation of network state updates.
  3.	Fast Notification Information Model (Standards Track, 2027-12)
-  o	Develop a structured model for fast notification data representation.
+    o	Develop a structured model for fast notification data representation.
  4.	Fast Notification Solution Framework (Standards Track, 2028-01)
-  o	Specify how fast notification mechanisms integrate into existing routing and traffic engineering frameworks.
+    o	Specify how fast notification mechanisms integrate into existing routing and traffic engineering frameworks.
 
 The WG will assess early deployments and feedback from operators to refine its work over time.
 
