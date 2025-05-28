@@ -36,13 +36,13 @@ The FANTEL WG will collaborate closely with the following IETF WGs:
 As needed, the WG will also coordinate with other relevant groups working on network automation and telemetry.
 
 Milestones & Deliverables
- 1.	Use Case and Requirements Document (intended status Informational, 2026-06)
+ 1.	Use Case and Requirements Document (2026-06)
     o	Define key challenges in real-time traffic reaction for DC and WAN networks.
- 2.	Fast Notification Mechanism Specification (intended status Standards Track, 2027-01)
+ 2.	Fast Notification Mechanism Specification (2027-01)
     o	Define procedures for rapid propagation of network state updates.
- 3.	Fast Notification Information Model (intended status Standards Track, 2027-12)
+ 3.	Fast Notification Information Model (2027-12)
     o	Develop a structured model for fast notification data representation.
- 4.	Fast Notification Architectures (intended status Standards Track, 2028-01)
+ 4.	Fast Notification Architectures (2028-01)
     o	Specify how fast notification mechanisms integrate into existing routing and traffic engineering frameworks.
 
 The WG will assess early deployments and feedback from operators to refine its work over time.
